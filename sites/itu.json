@@ -1,19 +1,19 @@
 {
     "university": "İstanbul Teknik Üniversitesi",
     "faculity": "",
-    "home":"http://www.itu.edu.tr/",
-    "url": "http://www.itu.edu.tr/duyuru",
+    "home":"https://ssc.nic.in/Portal/LatestNews",
+    "url": "https://ssc.nic.in/Portal/LatestNews",
     "scrape": {
         "news": {
-            "listItem": "tr",
+            "listItem": "li",
             "name": "announcement",
             "data": {
                 "url": {
-                    "selector": "a.link",
+                    "selector": "a",
                     "attr": "href"
                 },
                 "title": "a",
-                "publishedAt": "span.sfkonularPublicationDate"
+                "publishedAt": "span"
             }
         }
     }
